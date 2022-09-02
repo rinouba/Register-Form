@@ -1,0 +1,112 @@
+:root{
+    --coloraqua:#5df4ff;
+    --colorblue:#4fb0ff;
+}
+
+html,body {
+    height:100%;
+}
+.big-container{
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 60px var(--coloraqua);
+}
+
+.form-left{
+    display: inline-block;
+    width: 60%;
+    padding: 100px 0;
+}
+
+.form-right{
+    position: absolute;
+    display: inline-block;
+    width: 40%;
+    float: right;
+    background: -webkit-linear-gradient(var(--coloraqua), var(--colorblue));
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+}
+
+.big-input{
+    width: 60%;
+    margin: auto;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+    position: relative;
+    box-shadow: 0px 1px 20px var(--coloraqua);
+    margin-top: 25px;
+}
+
+.icon-input{
+    position: absolute;
+    width: 10%;
+    color: black;
+    font-size: 25px;
+    top:50%;
+    transform: translateY(-50%);
+    left: 5px;
+    background: -webkit-linear-gradient(var(--coloraqua), var(--colorblue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input-inside{
+    all: unset;
+    width: 90%;
+    float: right;
+    height: 100%;
+    border-radius: 30px;
+    text-align: left;
+    color: var(--colorblue)!important;
+    padding-left: 10px;
+}
+
+.bi-check-circle{
+    color: var(--coloraqua);
+    margin-right: 10px;
+    background: -webkit-linear-gradient(var(--coloraqua), var(--colorblue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.terms{
+    color: var(--coloraqua);
+    margin-left: 5px;
+}
+
+.colortext{
+    background: -webkit-linear-gradient(var(--coloraqua), var(--colorblue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.colortext2{
+    color: var(--coloraqua) !important;
+}
+a{
+     text-decoration: none !important;
+     color: inherit !important; 
+}
+
+.butten-create{
+    all: unset;
+    padding: 5px 40px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,var(--coloraqua), var(--colorblue) );
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fff;
+}
+.butten-create:hover{
+    background-image: linear-gradient(to right, var(--colorblue),var(--coloraqua) );
+    color: black;
+}
+
+.gladtoseeyou{
+    margin-top: 55%;
+}
